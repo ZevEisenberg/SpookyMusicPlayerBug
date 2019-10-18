@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5BEA0155235A0E2A000DBAE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA0154235A0E2A000DBAE5 /* AppDelegate.swift */; };
-		5BEA0157235A0E2A000DBAE5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA0156235A0E2A000DBAE5 /* SceneDelegate.swift */; };
 		5BEA0159235A0E2A000DBAE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BEA0158235A0E2A000DBAE5 /* ViewController.swift */; };
 		5BEA015C235A0E2A000DBAE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BEA015A235A0E2A000DBAE5 /* Main.storyboard */; };
 		5BEA015E235A0E2B000DBAE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BEA015D235A0E2B000DBAE5 /* Assets.xcassets */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		5BEA0151235A0E2A000DBAE5 /* SpookierPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpookierPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BEA0154235A0E2A000DBAE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BEA0156235A0E2A000DBAE5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5BEA0158235A0E2A000DBAE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5BEA015B235A0E2A000DBAE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BEA015D235A0E2B000DBAE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -57,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				5BEA0154235A0E2A000DBAE5 /* AppDelegate.swift */,
-				5BEA0156235A0E2A000DBAE5 /* SceneDelegate.swift */,
 				5BEA0158235A0E2A000DBAE5 /* ViewController.swift */,
 				5BEA015A235A0E2A000DBAE5 /* Main.storyboard */,
 				5BEA015D235A0E2B000DBAE5 /* Assets.xcassets */,
@@ -140,7 +137,6 @@
 			files = (
 				5BEA0159235A0E2A000DBAE5 /* ViewController.swift in Sources */,
 				5BEA0155235A0E2A000DBAE5 /* AppDelegate.swift in Sources */,
-				5BEA0157235A0E2A000DBAE5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KJHM26Y46;
 				INFOPLIST_FILE = SpookierPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +302,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2KJHM26Y46;
 				INFOPLIST_FILE = SpookierPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
