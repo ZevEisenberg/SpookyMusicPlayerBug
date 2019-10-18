@@ -24,10 +24,8 @@ class ViewController: UIViewController {
     @IBAction func buttonTapped(_ sender: UIButton) {
         playPauseButton.isSelected.toggle()
         if playPauseButton.isSelected {
-            let myPlaylistQuery = MPMediaQuery.playlists()
-            let predicate = MPMediaPropertyPredicate(value: "Spooky", forProperty: MPMediaPlaylistPropertyName)
-            myPlaylistQuery.addFilterPredicate(predicate)
-            musicPlayer.setQueue(with: myPlaylistQuery)
+            let mySongsQuery = MPMediaQuery.songs()
+            musicPlayer.setQueue(with: mySongsQuery)
             musicPlayer.prepareToPlay()
             musicPlayer.play()
         }
